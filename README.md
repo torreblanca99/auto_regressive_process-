@@ -4,7 +4,7 @@ The purpose of this reppository is learning to identify an Auto-Regressive proce
 <img src="src/img.PNG" />
 
 An AR(2) process will be simulated using the equation:
-$$y_t = C + \epsilon_t + \phi_1 y_{t-1} + \phi_2 y_{t-2} + \cdots + \phi_p y_{t-p}$$
+$$y_t = 0.33 y_{t-1} + 0.50 y_{t-2} $$
 The actions to execute are:
 1. Gather data: Simulate de AR(2) model with the above equation.
 2. Test stationary.
